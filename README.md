@@ -31,6 +31,17 @@ The dataset contains information on Amazon product reviews with columns such as 
 
 ### 2.Prediction using Data Mining Models/Methods:
 - We used Random Forest and Logistic Regression algorithms for predicting overall ratings based on review texts.
+- Several machine learning models were trained and evaluated:
+
+1. Logistic Regression: Demonstrated balanced performance across classes with around 70% accuracy, but some difficulty classifying negative sentiments.
+
+2. Linear SVM: Achieved around 71% accuracy, effectively separating sentiment classes and performing best on positive sentiments. 
+
+3. Decision Tree: Moderate performance at 68% accuracy, with issues in generalization and classifying negative sentiments indicating overfitting.
+
+4. Random Forest: The best performing model at 69% accuracy without cross-validation and 74% with cross-validation. Showed robust and balanced performance across classes due to its ensemble nature reducing overfitting.
+
+Cross-validation using 5 folds was implemented to evaluate model generalization. Logistic Regression and Linear SVM maintained stable cross-validation scores, while Random Forest improved significantly after cross-validation, confirming its superiority.
 
  ### 3.Prediction Results and Analysis:
 - The prediction models provided insights into the sentiment of product reviews.
@@ -42,7 +53,16 @@ The dataset contains information on Amazon product reviews with columns such as 
 -Predictions of overall ratings were produced by integrating the preprocessed textual data into the prediction algorithms.
 - Assessed the combined strategy to determine how it affected the dependability and accuracy of the predictions.
 
-### 5.Experimental Insights: -
+### 5.Experimental Insights: 
+1) Random Forest emerged as the most robust and reliable model for sentiment classification of product reviews by effectively managing complexities in natural language data.
+
+2) Ensemble techniques like Random Forest tend to perform better than individual models for this task.
+
+3) Careful model selection, validation, and hyperparameter tuning are crucial for achieving reliable sentiment predictions.
+
+- The project demonstrated the potential of applying machine learning for extracting actionable consumer insights from online reviews to drive product enhancements, targeted marketing, and improved customer experiences in e-commerce.
+ Future extensions were suggested like multilingual analysis, aspect-based sentiment analysis, real-time monitoring, and exploring deep learning models.
+
  -The textual data was successfully cleaned and standardized by the pre-processing approaches, which enhanced the analysis.
 - We could draw some conclusions and insights from the visualization and time series analysis.
 - Challenges included addressing class imbalances and refining feature selection techniques, which required further exploration and experimentation.
