@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-This repository contains code and resources for conducting sentiment analysis on Amazon product reviews using machine learning algorithms such as Logistic Regression and Random Forest Classifier. The project is part of a midterm project report for Group 04, consisting of Hitakshi Tanna, Rudraja Vansutre, Somita Chaudhari, Soumya Pednekar, and Tejashree Betgar.
+This repository contains code and resources for conducting sentiment analysis on Amazon product reviews using machine learning algorithms such as Logistic Regression and Random Forest Classifier. 
 
 
 
